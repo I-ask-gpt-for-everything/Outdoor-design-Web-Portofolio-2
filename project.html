@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Outdoor Design Portfolio</title>
+    <meta name="description" content="Detailed project view for the Outdoor Design portfolio.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-content">
+            <a class="logo" href="index.html" aria-label="Outdoor Design portfolio">
+                <span class="logo-light">Outdoor</span><span class="logo-bold">Design</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html">Back to Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero hero-compact" id="project-hero">
+        <div class="hero-bg" id="hero-bg-image" style="background-image: url('assets/images/scene-11.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="subtitle fade-in-up" id="project-category">Project Category</h2>
+            <h1 class="title fade-in-up" id="project-title" style="animation-delay: 0.2s;">Project Title</h1>
+        </div>
+    </header>
+
+    <section class="about project-overview" id="project-description-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Project Overview</h2>
+                <p id="project-description" class="project-description">
+                    Loading project details...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio project-gallery" id="project-gallery-section">
+        <div class="container">
+            <div id="timeline-container">
+                <section class="timeline-section" id="before-section">
+                    <h2 class="subtitle">Before</h2>
+                    <div class="gallery" id="before-gallery"></div>
+                </section>
+                <section class="timeline-section" id="process-section">
+                    <h2 class="subtitle">Process</h2>
+                    <div class="gallery" id="process-gallery"></div>
+                </section>
+                <section class="timeline-section" id="after-section">
+                    <h2 class="subtitle">After</h2>
+                    <div class="gallery" id="after-gallery"></div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-light">Outdoor</span><span class="logo-bold">Design</span>
+                    </div>
+                    <p>Designing living landscapes for healthier outdoor spaces.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Outdoor Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="projects.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>

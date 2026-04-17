@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sotirios Papadakis | Outdoor Design Portfolio</title>
+    <meta name="description" content="Portfolio of Sotirios Papadakis, Landscape Architect and Horticulturist at Outdoor Design.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a class="logo" href="#home" aria-label="Outdoor Design home">
+                <span class="logo-light">Outdoor</span><span class="logo-bold">Design</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#methodology">Methodology</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('assets/images/scene-11.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="subtitle fade-in-up">Nature-Based Solutions</h2>
+            <h1 class="title fade-in-up" style="animation-delay: 0.2s;">Sotirios Papadakis</h1>
+            <p class="description fade-in-up" style="animation-delay: 0.4s;">
+                Landscape Architect, Horticulturist, and CAD Specialist.<br>
+                Designing resilient outdoor spaces that feel alive long after handover.
+            </p>
+            <div class="hero-cta fade-in-up" style="animation-delay: 0.6s;">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text scroll-reveal">
+                    <h2>Strategic Landscape Architecture</h2>
+                    <p>With more than two decades in landscape design and implementation, Outdoor Design develops nature-based interventions that solve site constraints while improving the long-term health of each environment.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>NBS</h3>
+                            <p>Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image scroll-reveal">
+                    <img src="assets/images/scene-19.jpg" alt="Landscape architecture concept rendering">
+                    <div class="glass-card">
+                        Transforming outdoor spaces into living ecosystems.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="methodology" id="methodology">
+        <div class="container">
+            <div class="section-header scroll-reveal methodology-header">
+                <h2>Nature-Based Solutions</h2>
+                <p>Engineering landscapes that stay useful, durable, and ecologically grounded.</p>
+            </div>
+            <div class="method-grid">
+                <article class="method-card scroll-reveal">
+                    <div class="method-icon" aria-hidden="true">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    </div>
+                    <h3>Bio-engineering</h3>
+                    <p>Slope stabilization, hydroseeding, geocells, and dry stone walling used as practical design tools rather than decorative afterthoughts.</p>
+                </article>
+                <article class="method-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="method-icon" aria-hidden="true">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+                    </div>
+                    <h3>Hydraulic Management</h3>
+                    <p>Drainage and irrigation systems planned to reduce waste, protect planting, and respond to each site’s actual water behavior.</p>
+                </article>
+                <article class="method-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="method-icon" aria-hidden="true">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                    </div>
+                    <h3>Sustainable Curation</h3>
+                    <p>Plant palettes, materials, and maintenance choices aligned to climate, comfort, and lasting visual clarity.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Selected Projects</h2>
+                <p>Photorealistic concepts and completed outdoor works.</p>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" type="button" data-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-filter="photo">Photorealistic Concepts</button>
+                    <button class="filter-btn" type="button" data-filter="completed">Completed Works</button>
+                </div>
+            </div>
+            <div class="gallery" id="gallery"></div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-light">Outdoor</span><span class="logo-bold">Design</span>
+                    </div>
+                    <p>Designing living landscapes for healthier outdoor spaces.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>15344 Kriezi St., Athens GR</p>
+                    <p><a href="tel:+306974117193">+30 6974 11 71 93</a></p>
+                    <p><a href="mailto:sotiris@outdoordesign.gr">sotiris@outdoordesign.gr</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Outdoor Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
