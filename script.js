@@ -226,13 +226,13 @@ function initMap() {
                 const timeline = getProjectTimeline ? getProjectTimeline(project) : { after: [], process: [], before: [] };
                 const dtImage = timeline.after[0]?.path || project.coverImage;
                 
-                const popupHTML = 
+                const popupHTML = `
                     <div style="text-align:center;">
-                        <h4>\</h4>
-                        <p>\</p>
-                        <a href="project.html?id=\" class="map-btn">View Case Study</a>
+                        <h4>${project.title.split('-')[0].trim()}</h4>
+                        <p>${project.category}</p>
+                        <a href="project.html?id=${encodeURIComponent(project.id)}" class="map-btn">View Case Study</a>
                     </div>
-                ;
+                `;
 
                 marker.bindPopup(popupHTML);
             }
