@@ -1,6 +1,7 @@
 ﻿const portfolioData = {
     "photorealisticProject":  {
                                   "id":  "photorealistic",
+        "coords": [37.9838, 23.7275],
                                   "type":  "photo",
                                   "title":  "Pre-visualization & CAD Integration",
                                   "category":  "3D Renderings \u0026 Concepts",
@@ -83,6 +84,7 @@
     "completedProjects":  [
                               {
                                   "id":  "alimos",
+        "coords": [37.91, 23.715],
                                   "type":  "completed",
                                   "title":  "Resilient Planting & Topographical Management - Alimos",
                                   "category":  "Completed Work",
@@ -139,6 +141,7 @@
                               },
                               {
                                   "id":  "koropi",
+        "coords": [37.9, 23.875],
                                   "type":  "completed",
                                   "title":  "Drought-Tolerant Hydrology & Estate Planning - Koropi",
                                   "category":  "Completed Work",
@@ -220,6 +223,7 @@
                               },
                               {
                                   "id":  "legrena",
+        "coords": [37.666, 23.985],
                                   "type":  "completed",
                                   "title":  "Coastal Wind Mitigation & Slope Retention - Legrena",
                                   "category":  "Completed Work",
@@ -341,6 +345,7 @@
                               },
                               {
                                   "id":  "playground",
+        "coords": [37.95, 23.7],
                                   "type":  "completed",
                                   "title":  "High-Traffic Impact Management & Safe Zoning",
                                   "category":  "Completed Work",
@@ -387,6 +392,7 @@
                               },
                               {
                                   "id":  "penteli",
+        "coords": [38.05, 23.883],
                                   "type":  "completed",
                                   "title":  "Mountainous Terrain & Erosion Control - Penteli",
                                   "category":  "Completed Work",
@@ -428,6 +434,7 @@
                               },
                               {
                                   "id":  "salamina",
+        "coords": [37.933, 23.5],
                                   "type":  "completed",
                                   "title":  "Complex Coastal Grading & Structural Hardscaping - Salamina",
                                   "category":  "Completed Work",
@@ -579,6 +586,7 @@
                               },
                               {
                                   "id":  "sounio",
+        "coords": [37.653, 24.026],
                                   "type":  "completed",
                                   "title":  "Arid Climate Adaptation & Seamless Hardscaping - Sounio",
                                   "category":  "Completed Work",
@@ -615,6 +623,7 @@
                               },
                               {
                                   "id":  "chalandri",
+        "coords": [38.023, 23.8],
                                   "type":  "completed",
                                   "title":  "Urban Micro-Climate Restoration & Privacy Screening - Chalandri",
                                   "category":  "Completed Work",
@@ -711,6 +720,7 @@
                               },
                               {
                                   "id":  "cholargos",
+        "coords": [38.005, 23.795],
                                   "type":  "completed",
                                   "title":  "Suburban Canopy Integration & Drainage Overhaul - Cholargos",
                                   "category":  "Completed Work",

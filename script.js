@@ -183,3 +183,68 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 window.addEventListener('scroll', handleScroll);
 scrollRevealSetup();
 handleScroll();
+
+// --- LEAFLET MAP LOGIC ---
+function initMap() {
+    const mapContainer = document.getElementById('project-map');
+    if (!mapContainer || typeof L === 'undefined') return;
+
+    // Center roughly around Attica (Athens)
+    const map = L.map('project-map', {
+        zoomControl: false,
+        scrollWheelZoom: false // Keep scrolling smooth for the page
+    }).setView([37.9, 23.75], 9);
+
+    // Add zoom controls to the bottom right
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    // CartoDB Dark Matter URL
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(map);
+
+    // Custom pulse icon styling
+    const customIcon = L.divIcon({
+        className: 'custom-map-icon',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+        popupAnchor: [0, -10]
+    });
+
+    const bounds = [];
+
+    // Loop through global portfolioProjects and place markers
+    if (window.portfolioProjects) {
+        window.portfolioProjects.forEach(project => {
+            if (project.coords && project.coords.length === 2) {
+                const marker = L.marker(project.coords, { icon: customIcon }).addTo(map);
+                bounds.push(project.coords);
+
+                // Build Popup Content
+                const timeline = getProjectTimeline ? getProjectTimeline(project) : { after: [], process: [], before: [] };
+                const dtImage = timeline.after[0]?.path || project.coverImage;
+                
+                const popupHTML = 
+                    <div style="text-align:center;">
+                        <h4>\</h4>
+                        <p>\</p>
+                        <a href="project.html?id=\" class="map-btn">View Case Study</a>
+                    </div>
+                ;
+
+                marker.bindPopup(popupHTML);
+            }
+        });
+    }
+
+    // Fit map bounds to show all markers
+    if (bounds.length > 0) {
+        map.fitBounds(bounds, { padding: [40, 40], maxZoom: 12 });
+    }
+}
+
+// Initialize map on load
+document.addEventListener('DOMContentLoaded', initMap);
+
