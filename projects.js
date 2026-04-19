@@ -2,11 +2,11 @@
     "photorealisticProject":  {
                                   "id":  "photorealistic",
                                   "type":  "photo",
-                                  "title":  "Photorealistic Visions",
+                                  "title":  "Pre-visualization & CAD Integration",
                                   "category":  "3D Renderings \u0026 Concepts",
                                   "location":  "Design Concepts",
                                   "coverImage":  "assets/images/scene-11.jpg",
-                                  "description":  "A collection of photorealistic visual studies exploring how architecture, planting, lighting, and circulation come together before construction begins.",
+                                  "description":  "High-fidelity architectural pre-visualization showcasing our seamless integration of modern structures with accurate botanical and topographical environments. Ready for BIM workflows.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/images/image-10.jpg",
@@ -84,11 +84,11 @@
                               {
                                   "id":  "alimos",
                                   "type":  "completed",
-                                  "title":  "Landscape at Alimos",
+                                  "title":  "Resilient Planting & Topographical Management - Alimos",
                                   "category":  "Completed Work",
                                   "location":  "Alimos",
                                   "coverImage":  "assets/completed/alimos/009-photo-09.jpg",
-                                  "description":  "Landscape design and implementation project in Alimos, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Complex urban execution relying on precise topographical grading and resilient planting systems designed to protect surrounding infrastructure while elevating the architectural form.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/alimos/001-20190509_135055.jpg",
@@ -140,11 +140,11 @@
                               {
                                   "id":  "koropi",
                                   "type":  "completed",
-                                  "title":  "Landscape at Koropi",
+                                  "title":  "Drought-Tolerant Hydrology & Estate Planning - Koropi",
                                   "category":  "Completed Work",
                                   "location":  "Koropi",
                                   "coverImage":  "assets/completed/koropi/014-20181217_1155020.jpg",
-                                  "description":  "Landscape design and implementation project in Koropi, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Large-scale estate planning focusing on zero-evaporation irrigation networks and drought-tolerant planting palettes tailored to hot micro-climates.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/koropi/001-20180203_102124.jpg",
@@ -221,11 +221,11 @@
                               {
                                   "id":  "legrena",
                                   "type":  "completed",
-                                  "title":  "Landscape at Legrena",
+                                  "title":  "Coastal Wind Mitigation & Slope Retention - Legrena",
                                   "category":  "Completed Work",
                                   "location":  "Legrena",
                                   "coverImage":  "assets/completed/legrena/022-dji_0181.jpg",
-                                  "description":  "Landscape design and implementation project in Legrena, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Heavy bio-engineering intervention targeting rapid slope stabilization, utilizing geocells and salt-tolerant flora to protect coastal architecture from harsh winds.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/legrena/001-20161105_145216.jpg",
@@ -342,11 +342,11 @@
                               {
                                   "id":  "playground",
                                   "type":  "completed",
-                                  "title":  "Landscape at Playground",
+                                  "title":  "High-Traffic Impact Management & Safe Zoning",
                                   "category":  "Completed Work",
                                   "location":  "Playground",
                                   "coverImage":  "assets/completed/playground/007-photo-07.jpg",
-                                  "description":  "Landscape design and implementation project in Playground, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Public sphere execution focusing strictly on durable, non-allergenic flora and robust spatial zoning to accommodate high foot traffic while ensuring absolute user safety.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/playground/001-20160706_161342.jpg",
@@ -388,11 +388,11 @@
                               {
                                   "id":  "penteli",
                                   "type":  "completed",
-                                  "title":  "Landscape at Penteli",
+                                  "title":  "Mountainous Terrain & Erosion Control - Penteli",
                                   "category":  "Completed Work",
                                   "location":  "Penteli",
                                   "coverImage":  "assets/completed/penteli/006-photo-06.jpg",
-                                  "description":  "Landscape design and implementation project in Penteli, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Altitude-specific terrain management. Implementation of deep-rooting native systems and dry stone terracing to prevent soil erosion around sloped architectural foundations.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/penteli/001-20181207_153728.jpg",
@@ -429,11 +429,11 @@
                               {
                                   "id":  "salamina",
                                   "type":  "completed",
-                                  "title":  "Landscape at Salamina",
+                                  "title":  "Complex Coastal Grading & Structural Hardscaping - Salamina",
                                   "category":  "Completed Work",
                                   "location":  "Salamina",
                                   "coverImage":  "assets/completed/salamina/028-geniki-apopsi-2.jpg",
-                                  "description":  "Landscape design and implementation project in Salamina, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Multi-tier site grading over challenging coastal bedrock. We integrated extensive hydraulic management hidden beneath seamless architectural hardscaping.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/salamina/001-20160113_083037.jpg",
@@ -580,11 +580,11 @@
                               {
                                   "id":  "sounio",
                                   "type":  "completed",
-                                  "title":  "Landscape at Sounio",
+                                  "title":  "Arid Climate Adaptation & Seamless Hardscaping - Sounio",
                                   "category":  "Completed Work",
                                   "location":  "Sounio",
                                   "coverImage":  "assets/completed/sounio/005-site1.jpg",
-                                  "description":  "Landscape design and implementation project in Sounio, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Site-specific hardscaping and soil amendment strategies designed to flourish in extreme arid coastal conditions without overwhelming the architectural centerpiece.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/sounio/001-20120218_102242.jpg",
@@ -616,11 +616,11 @@
                               {
                                   "id":  "chalandri",
                                   "type":  "completed",
-                                  "title":  "Landscape at Chalandri",
+                                  "title":  "Urban Micro-Climate Restoration & Privacy Screening - Chalandri",
                                   "category":  "Completed Work",
                                   "location":  "Chalandri",
                                   "coverImage":  "assets/completed/chalandri/017-img_4850.jpg",
-                                  "description":  "Landscape design and implementation project in Chalandri, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Dense urban intervention leveraging fast-growing perimeter screening and micro-climate temperature reduction, creating a private, sound-dampened oasis.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/chalandri/001-20160725_181605.jpg",
@@ -712,11 +712,11 @@
                               {
                                   "id":  "cholargos",
                                   "type":  "completed",
-                                  "title":  "Landscape at Cholargos",
+                                  "title":  "Suburban Canopy Integration & Drainage Overhaul - Cholargos",
                                   "category":  "Completed Work",
                                   "location":  "Cholargos",
                                   "coverImage":  "assets/completed/cholargos/004-20140308_115833.jpg",
-                                  "description":  "Landscape design and implementation project in Cholargos, combining resilient planting, careful grading, durable hardscape, and long-term site stewardship.",
+                                  "description":  "Strategic canopy installation and full sub-surface drainage re-engineering to protect the site's primary structure from seasonal heavy rain accumulation.",
                                   "images":  [
                                                  {
                                                      "path":  "assets/completed/cholargos/001-20120424_144734.jpg",
